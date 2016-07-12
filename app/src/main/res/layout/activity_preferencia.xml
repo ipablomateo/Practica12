@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include android:id="@+id/toolbarSavePreference"
+        layout="@layout/app_toolbar"/>
+
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/snombre"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/bGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/sguardar"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
